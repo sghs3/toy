@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.project.toy.biz.sample.mapper.SampleMapper">
+    <select id="getSampleInfo" resultType="com.project.toy.biz.sample.domain.SampleVO">
+        SELECT
+            'SAMPLE_NAME'  AS SAMPLE_NAME
+            , 'SAMPLE_CODE'  AS SAMPLE_CODE
+    </select>
+</mapper>
